@@ -1,0 +1,17 @@
+{
+  "name": "hicomponent.github.io",
+  "version": "1.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/HiComponent/hicomponent.github.io.git",
+  "author": "linco <linklinco@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vuepress": "^1.9.8"
+  },
+  "scripts": {
+    "dev:docs": "vuepress dev docs",
+    "build:docs": "vuepress build docs",
+    "pages": "gh-pages -d gh-pages"
+  }
+}
